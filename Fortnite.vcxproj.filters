@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ressource">
+      <UniqueIdentifier>{f3ee90de-021c-4bf3-b991-a85fa9857a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypt">
+      <UniqueIdentifier>{a806928b-7ec7-4512-94dd-efa74b8afa2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{2599f48d-ea20-467d-9a3d-7d092c9b2ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\offset">
+      <UniqueIdentifier>{e899c621-acb6-4c73-9ae5-89dca6ef7507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hkpresent">
+      <UniqueIdentifier>{c6c12c4d-16db-4a8f-968c-18cc580b8868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{8ec6417e-f287-4240-bd6c-bd53d271912f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hkscene">
+      <UniqueIdentifier>{9f94f39f-1e51-4fac-b993-32df824f64e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style">
+      <UniqueIdentifier>{cae02ebb-25bc-49a6-b9e9-271759acfafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumper">
+      <UniqueIdentifier>{eaa21731-a248-4068-95b4-d40c462eb8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="setting">
+      <UniqueIdentifier>{cf3c67d8-9eed-46a9-8c97-8c862219acb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stub asm">
+      <UniqueIdentifier>{cd959536-3169-4024-9e88-aa8e885bdf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{cc351531-9658-4234-af93-135d8ee0fe03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="hooker.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="hkpresent.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="style.c">
+      <Filter>style</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="tick.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof_call.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>ressource</Filter>
+    </ClInclude>
+    <ClInclude Include="skc.h">
+      <Filter>crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="RetSpoof.h">
+      <Filter>stub asm</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>data\offset</Filter>
+    </ClInclude>
+    <ClInclude Include="hkb.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="hkpresent.h">
+      <Filter>hkpresent</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="hkscene.h">
+      <Filter>hkscene</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateHook.h">
+      <Filter>dumper</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>setting</Filter>
+    </ClInclude>
+    <ClInclude Include="hkcheat.h">
+      <Filter>hkpresent</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSystemMetrics.h">
+      <Filter>system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spoofinternal.asm">
+      <Filter>stub asm</Filter>
+    </None>
+  </ItemGroup>
+</Project>

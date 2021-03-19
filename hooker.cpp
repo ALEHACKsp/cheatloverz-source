@@ -1,0 +1,14 @@
+/*
+ALLAH AKBAR
+ALLAH AKBAR
+ALLAH AKBAR
+ALLAH AKBAR
+ALLAH AKBAR
+*/
+
+
+
+
+namespace hook1337 {
+
+}
